@@ -3,7 +3,7 @@ import { useState } from "react";
 const TaskInput = ({ addTask }) => {
   const [title, setTitle] = useState("");
 
-  const handleAddTodo = (e) => {
+  const handleAddTask = (e) => {
     if (e.key.toLowerCase() === "enter") {
       addTask(title);
       setTitle("");
