@@ -89,7 +89,6 @@ const TaskList = () => {
           className="mt-6 block w-full select-none rounded-lg border border-white hover:border-white bg-transparent hover:bg-white hover:text-black py-3 px-6 text-center align-middle text-s font-sans text-white shadow-md shadow-white/20 transition-all hover:shadow-lg hover:shadow-white/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none group-invalid:pointer-events-none group-invalid:opacity-30"
           type="submit"
           value="add task"
-          onClick={handleTaskAdd}
         >
           « Create Task »
         </button>
